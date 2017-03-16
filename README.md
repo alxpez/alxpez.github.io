@@ -6,17 +6,17 @@ Love to share new ways of creating software, and always eager to discover any ne
 
 ### Backend
 
-**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _"accent"_. Kind of like being in my hometown (Madrid) and speaking Spanish, but as a good traveler (that I am) I like to get our of my confort-zone. Always eager to learn new languages.
+**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _"accent"_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get our of my comfort-zone. Always eager to learn new languages.
 
 The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even for dealing with the frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
 
 ### Frontend
 
-I started off with **ActionScript3**, back then when it was popular Adobe Flex ([Apache Flex](http://flex.apache.org/) currently), was a really neat toy to play with, and so I did for about 4 years.
+I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex ([Apache Flex](http://flex.apache.org/) currently), was a really neat toy to play with, and so I did for about 4 years.
 
-After this sweet time came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel (somewhat) warm inside. [AngularJS](https://angularjs.org/) was my choice.
+After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
-Nowdays, I fill up myself with the new google toy [Angular](https://angular.io/)(plain and simple, or "2" how it was called before it's release).
+Nowdays, I fill up my head with the new google's toy [Angular](https://angular.io/)(plain and simple, or "2" how it was called before it's release).
 
 ### Data storage
 
