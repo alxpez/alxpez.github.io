@@ -1,7 +1,7 @@
 # The stuff I like
 
 This is just part of _my story_, and a small selection of the toys I like to play with. 
-As about me, I love to share new ways of creating software, and I find myself always eager to discover any new technology that pops around. Amazes me the feeling of brain-expansion when I start digging in the _candybox_ of some new paradigm changing software.
+As about me, I love to share new ways of creating software, and I find myself always eager to discover any new technology that pops around. Amazes me the feeling of brain-expansion when I start digging in the _candy box_ of a new paradigm changing software.
 
 ### Backend
 
@@ -15,7 +15,7 @@ I started off with **ActionScript3**, back then _when it was popular_, Adobe Fle
 
 After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
-Nowdays, I fill up my head with the new google's toy [Angular](https://angular.io/)(plain and simple, or "2" how it was called before it's release).
+Nowdays, I fill up my head with the new google's toy [Angular](https://angular.io/) (plain and simple, or "2" how it was called before it's release).
 
 ### Data storage
 
@@ -30,7 +30,7 @@ Nowdays, I fill up my head with the new google's toy [Angular](https://angular.i
 
 ### Other goodies
 
-- **Docker**, this big whale is taking over the whole scene
+- **Docker**, this big whale is taking over the whole scene.
 - **AWS**, I still haven't got to grasp the whole of it...
 
 
