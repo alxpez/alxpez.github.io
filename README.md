@@ -20,19 +20,19 @@ Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) 
 
 ### Data storage
 
-- **[MySQL](https://www.mysql.com/)**. I've used it for most of my corporated developer life.
-- **[MongoDB](https://www.mongodb.com/)**. Eagerly taking in all that I can get of it during my _homie_ time.
-- **[Redis](https://redis.io/)**. Looking forward to dive deeper into it to complement the previous one.
+- **[MySQL](https://www.mysql.com/)** - I've used it for most of my corporated developer life.
+- **[MongoDB](https://www.mongodb.com/)** - Eagerly taking in all that I can get of it during my _homie_ time.
+- **[Redis](https://redis.io/)** - Looking forward to dive deeper into it to complement the previous one.
 
 ### CVS/DCVS
 
-- **[SVN](https://subversion.apache.org/)**. Heavily used on my professional developing time.
-- **[Git](https://git-scm.com/)**. Falling in love with it, while playing on my spare hours (I never had the chance to use it in corporate world, yet).
+- **[SVN](https://subversion.apache.org/)** - Heavily used on my professional developing time.
+- **[Git](https://git-scm.com/)** - Falling in love with it, while playing on my spare hours.
 
 ### Other goodies
 
-- **[Docker](https://www.docker.com/)**. The big whale that is taking over the whole scene (just getting started).
-- **[AWS](https://aws.amazon.com/)**. So broad that I still haven't got to grasp the whole of it.
+- **[Docker](https://www.docker.com/)** - The big whale that is taking over the whole scene (just getting started).
+- **[AWS](https://aws.amazon.com/)** - So broad that I still haven't got to grasp the whole of it.
 
 
 
