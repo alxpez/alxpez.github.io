@@ -1,8 +1,8 @@
 # Site settings
 title: al-pez
 description: This is just a small selection of the toys I like to play with. Love to share new ways of creating software, and always eager to discover any new technology that pops around (amazes me the feeling of brain-expansion when something new falls into your hands)
-baseurl: /
-url: https://al-pez.github.io/
+baseurl: "/"
+url: "https://al-pez.github.io/"
 
 # User settings
 username: Alex Perez
