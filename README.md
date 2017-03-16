@@ -14,9 +14,9 @@ The dependency management tool of my choice is [Apache Maven](https://maven.apac
 
 I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex (currently [Apache Flex](http://flex.apache.org/)), was a really neat toy to play with, and so I did for about 4 years.
 
-After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
+After this sweet time, came a **JavaScript/HTML** transition. Swimming all over an ocean of tools, I stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
-Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) (plain and simple, or "2" how it was called before it's release).
+Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) (plain and simple, or _2_ how it was called before it's release).
 
 ### Data storage
 
