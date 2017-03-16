@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
 
 title: Alex Perez
-description: "Software developer, plus a long list of hip-terms for current times \n(e.g. full-stack, DevOps)"
+description: |
+  Software developer, plus some hip-terms for current times
+              (e.g. full-stack, DevOps)
