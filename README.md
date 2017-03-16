@@ -12,7 +12,7 @@ The dependency management tool of my choice is [Apache Maven](https://maven.apac
 
 ### Frontend
 
-I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex (currently [Apache Flex](http://flex.apache.org/)), was a really neat toy to play with, and so I did for about 4 years (along with other extras like [Parsley](http://www.spicefactory.org/parsley/)).
+I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex (currently [Apache Flex](http://flex.apache.org/)), was my bfast, lunch and dinner for about 4 years (it is worth saying that I liked to _spice it up_ with [Parsley](http://www.spicefactory.org/parsley/)).
 
 After this sweet time, came a **JavaScript/HTML** transition. Swimming all over an ocean of tools, I stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
