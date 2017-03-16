@@ -6,33 +6,33 @@ As for me, I love to share new ways of creating software, and I always find myse
 
 ### Backend
 
-**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _accent_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get our of my comfort-zone. Always eager to learn new languages.
+**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _accent_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get out of my comfort-zone. Always eager to learn new languages.
 
-The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even for dealing with the frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
+The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even when dealing with frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
 
 ### Frontend
 
-I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex ([Apache Flex](http://flex.apache.org/) currently), was a really neat toy to play with, and so I did for about 4 years.
+I started off with **ActionScript3**, back then _when it was popular_, Adobe Flex (currently [Apache Flex](http://flex.apache.org/)), was a really neat toy to play with, and so I did for about 4 years.
 
-After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
+After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
 Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) (plain and simple, or "2" how it was called before it's release).
 
 ### Data storage
 
-- **MySQL**, for most of my corporated developer life.
-- **MongoDB**, eagerly taking in what I can on my _homie_ time.
-- **Redis**, next step to complement the previous one.
+- **[MySQL](https://www.mysql.com/)**. I've used it for most of my corporated developer life.
+- **[MongoDB](https://www.mongodb.com/)**. Eagerly taking in all that I can get of it during my _homie_ time.
+- **[Redis](https://redis.io/)**. Looking forward to dive deeper into it to complement the previous one.
 
 ### CVS/DCVS
 
-- **SVN**, heavily used on my professional developing time.
-- **Git**, slowly falling in love during my spare hours.
+- **[SVN](https://subversion.apache.org/)**. Heavily used on my professional developing time.
+- **[Git](https://git-scm.com/)**. Falling in love with it, while playing on my spare hours (I never had the chance to use it in corporate world, yet).
 
 ### Other goodies
 
-- **Docker**, this big whale is taking over the whole scene.
-- **AWS**, I still haven't got to grasp the whole of it...
+- **[Docker](https://www.docker.com/)**. The big whale that is taking over the whole scene (just getting started).
+- **[AWS](https://aws.amazon.com/)**. So broad that I still haven't got to grasp the whole of it.
 
 
 
