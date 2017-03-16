@@ -1,8 +1,7 @@
-## The stuff I like
+# The stuff I like
 
-This is just a small selection of the toys I like to play with. 
-Love to share new ways of creating software, and always eager to discover any new technology that pops around.
-(amazes me the feeling of brain-expansion when something new falls into my hands)
+This is just part of _my story_, and a small selection of the toys I like to play with. 
+As about me, I love to share new ways of creating software, and I find myself always eager to discover any new technology that pops around. Amazes me the feeling of brain-expansion when I start digging in the _candybox_ of some new paradigm changing software.
 
 ### Backend
 
