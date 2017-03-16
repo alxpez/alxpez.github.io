@@ -1,8 +1,8 @@
 # Site settings
 title: al-pez
 description: al-pez github page
-baseurl: /
-url: https://al-pez.github.io/
+baseurl: "/"
+url: "https://al-pez.github.io/"
 
 # User settings
 username: Alex Perez
