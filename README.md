@@ -36,4 +36,4 @@ Nowdays, I fill up my head with the new google's toy [Angular](https://angular.i
 
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
