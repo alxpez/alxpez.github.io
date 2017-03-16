@@ -6,7 +6,7 @@ As for me, I love to share new ways of creating software, and I always find myse
 
 ### Backend
 
-**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _"accent"_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get our of my comfort-zone. Always eager to learn new languages.
+**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _accent_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get our of my comfort-zone. Always eager to learn new languages.
 
 The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even for dealing with the frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
 
