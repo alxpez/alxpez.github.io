@@ -16,7 +16,7 @@ I started off with **ActionScript3**, back then _when it was popular_, Adobe Fle
 
 After this sweet time, came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel, somewhat, warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
-Nowdays, I fill up my head with the new google's toy [Angular](https://angular.io/) (plain and simple, or "2" how it was called before it's release).
+Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) (plain and simple, or "2" how it was called before it's release).
 
 ### Data storage
 
