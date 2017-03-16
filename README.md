@@ -2,7 +2,7 @@
 
 This is just part of _my story_, and a small selection of the toys I like to play with.
 
-As for me, I love to share new ways of creating software, and I always find myself eager to discover any new technology that pops around. Amazes me the feeling of brain-expansion when I start digging into the _candy box_ of a new paradigm changing software.
+As for me, I love to share new ways of creating software, and I always find myself eager to play with any new technology that pops around. Amazes me the feeling of brain-expansion when I start digging into the _candy box_ of a new paradigm changing software.
 
 ### Backend
 
