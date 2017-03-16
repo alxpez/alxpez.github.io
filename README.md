@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## The stuff I like
 
-You can use the [editor on GitHub](https://github.com/al-pez/alpez.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is just a small selection of the toys I like to play with. 
+Love to share new ways of creating software, and always eager to discover any new technology that pops around.
+(amazes me the feeling of brain-expansion when something new falls into my hands)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Backend
 
-### Markdown
+**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _"accent"_. Kind of like being in my hometown (Madrid) and speaking Spanish, but as a good traveler (that I am) I like to get our of my confort-zone. Always eager to learn new languages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even for dealing with the frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
 
-```markdown
-Syntax highlighted code block
+### Frontend
 
-# Header 1
-## Header 2
-### Header 3
+I started off with **ActionScript3**, back then when it was popular Adobe Flex ([Apache Flex](http://flex.apache.org/) currently), was a really neat toy to play with, and so I did for about 4 years.
 
-- Bulleted
-- List
+After this sweet time came a **JavaScript/HTML** transition. Swimming all over in an ocean of tools, I (and many others) stumble upon one framework that made me feel (somewhat) warm inside. [AngularJS](https://angularjs.org/) was my choice.
 
-1. Numbered
-2. List
+Nowdays, I fill up myself with the new google toy [Angular](https://angular.io/)(plain and simple, or "2" how it was called before it's release).
 
-**Bold** and _Italic_ and `Code` text
+### Data storage
 
-[Link](url) and ![Image](src)
-```
+- **MySQL**, for most of my corporated developer life.
+- **MongoDB**, eagerly taking in what I can on my _homie_ time.
+- **Redis**, next step to complement the previous one.
+
+### CVS/DCVS
+
+- **SVN**, heavily used on my professional developing time.
+- **Git**, slowly falling in love during my spare hours.
+
+### Other goodies
+
+- **Docker**, this big whale is taking over the whole scene
+- **AWS**, I still haven't got to grasp the whole of it...
+
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/al-pez/alpez.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
