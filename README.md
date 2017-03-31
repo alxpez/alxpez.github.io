@@ -6,7 +6,7 @@ As for me, I love to share new ways of creating software, and I always find myse
 
 ### Backend
 
-**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _accent_. Kind of like being in my hometown and speaking Spanish, but as a well-traveled person, I like to get out of my comfort-zone. Always eager to learn new languages.
+**Java** is the language I speak the most, and [Spring](https://spring.io/projects) my favourite _accent_. Kind of like being in my hometown and speaking Spanish, but hey, I like to get out of my comfort-zone, and some [Python](https://www.python.org/) scripts have fallen into my hands from time to time. However, I'm always eager to learn new languages.
 
 The dependency management tool of my choice is [Apache Maven](https://maven.apache.org/). I like to use it even when dealing with frontend dependencies, if it's plausible, although certain occasions call for other (not less fancy) tools like [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
 
@@ -20,13 +20,13 @@ Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) 
 
 ### Data storage
 
-- [MySQL](https://www.mysql.com/) - I've used it for most of my corporated developer life.
-- [MongoDB](https://www.mongodb.com/) - Eagerly taking in all that I can get of it during my _homie_ time.
+- [MySQL](https://www.mysql.com/) - I've used it for most of my corporate developer life.
+- [MongoDB](https://www.mongodb.com/) - Eagerly taking in all that I can get of it during my free time.
 - [Redis](https://redis.io/) - Looking forward to dive deeper into it to complement the previous one.
 
 ### CVS/DCVS
 
-- [SVN](https://subversion.apache.org/) - Heavily used on my professional developing time.
+- [SVN](https://subversion.apache.org/) - Heavily used on the professional enviroments I have worked in.
 - [Git](https://git-scm.com/) - Falling in love with it, while playing on my spare hours.
 
 ### Other goodies
