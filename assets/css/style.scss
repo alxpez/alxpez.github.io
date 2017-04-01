@@ -4,5 +4,12 @@
 @import "{{ site.theme }}";
 
 .page-header {
+    padding-top: 40px;
+    padding-bottom: 15px;
     background-image: linear-gradient(15deg, #649173, #DBD5A4);
+}
+
+.img-circle {
+    border-radius: 50% 2% 25%;
+    height: 150px;
 }
