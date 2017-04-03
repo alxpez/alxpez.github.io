@@ -18,13 +18,13 @@ After this sweet time, came a **JavaScript/HTML** transition. Swimming all over 
 
 Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) (_2_ how it was called before its stable release).
 
-### Data storage
+### Databases
 
 - [MySQL](https://www.mysql.com/) - I've used it for most of my corporate developer life.
 - [MongoDB](https://www.mongodb.com/) - Eagerly taking in all that I can get of it during my free time.
 - [Redis](https://redis.io/) - Looking forward to dive deeper into it to complement the previous one.
 
-### VCS
+### Version Control Systems
 
 - [SVN](https://subversion.apache.org/) - Heavily used on the professional enviroments I have worked in.
 - [Git](https://git-scm.com/) - Falling in love with it, while playing on my spare hours.
