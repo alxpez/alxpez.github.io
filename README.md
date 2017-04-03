@@ -32,7 +32,7 @@ Nowdays, I fill my head up with google's new toy [Angular](https://angular.io/) 
 ### Other goodies
 
 - [Docker](https://www.docker.com/) - The big whale that is taking over the whole scene (just getting started).
-- [AWS](https://aws.amazon.com/) - So broad that I still haven't got to grasp the whole of it.
+- [AWS](https://aws.amazon.com/) - So broad that I haven't got to grasp the whole of it, yet.
 
 
 
