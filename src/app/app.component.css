@@ -1,0 +1,24 @@
+h1 > small {
+	color: #E4E6C3;
+}
+
+.header > * {
+	text-align: left;
+	margin: 5px;
+}
+
+
+.img-circle {
+    border-radius: 50% 2% 25%;
+    height: 150px;
+}
+
+.header-2 > * {
+	text-align: right;
+	margin: 5px;
+}
+
+.img-circle-2 {
+    border-radius: 2% 50% 2% 25%;
+    height: 150px;
+}
