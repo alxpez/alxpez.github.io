@@ -1,17 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 .jumbotron {
-    background-color: #121113;
-    color: #E4E6C3;
+    background-color: #141414;
+    color: #F4F3FF;
+    padding-top: 20px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: #899878;
+    color: #937666;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-    color: #222725;
-    background-color: #F7F7F2;
+    color: #141414;
+    background-color: #F4F3FF;
     font-family: 'Roboto', sans-serif;
 }

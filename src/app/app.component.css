@@ -1,24 +1,42 @@
-h1 > small {
-	color: #E4E6C3;
+.title, .title > small {
+	color: #F4F3FF;
 }
 
-.header > * {
-	text-align: left;
-	margin: 5px;
+.subtitle {
+	color: #B19994;
 }
 
-
-.img-circle {
-    border-radius: 50% 2% 25%;
-    height: 150px;
+.header-left {
+	padding: 8px;
 }
 
-.header-2 > * {
+.header-left > * {
 	text-align: right;
 	margin: 5px;
 }
 
-.img-circle-2 {
-    border-radius: 2% 50% 2% 25%;
-    height: 150px;
+.header-right {
+	margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.header-right {
+		margin-top: 40px;
+	}
+}
+
+.header-right > div {
+	padding: 0 8px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 140px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-social {
+	margin-top: 10px;
+	width: 40px;
 }
