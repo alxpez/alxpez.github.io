@@ -1,25 +1,12 @@
-<div class="jumbotron">
-	<div class="container">
 
-		<div class="col-xs-6 header-left">
-			<h1 class="title">a<small>lex</small>p<small>erez</small></h1>
-			<h3 class="subtitle">Software Developer</h3>
-			<h3><small>{{ '{' }} Full-stack, DevOps for the current "hip" {{ '}' }}</small></h3>
-		</div>
+<app-header></app-header>
 
-		<div class="col-xs-6 header-right">
-      <img class="img-circle pull-left" src="../assets/alex.jpg">
-      
-      <div class="col-xs-6">
-        <img class="img-social" src="../assets/github.png">
-      </div>
 
-      <div class="col-xs-6">
-        <img class="img-social" src="../assets/linkedin.png">
-      </div>
-		</div>
-	</div>
-</div>
+<router-outlet></router-outlet>
+
+
+<app-footer></app-footer>
+
 
 <!-- TODO> all this goes to the different views -->
 <div class="container">
@@ -43,10 +30,4 @@
   </div>
 
   <hr>
-
-<!-- TODO> Separate view for the footer -->
-  <footer>
-    <p>Alex Perez · 2017</p>
-  </footer>
 </div>
-<router-outlet></router-outlet>

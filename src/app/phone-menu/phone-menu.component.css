@@ -1,0 +1,72 @@
+/* The Overlay (background) */
+.overlay {    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(20,20,20,0.85); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.33s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.open {
+	width: 100%;
+    background-color: rgb(20,20,20); /* Black fallback color */
+    background-color: rgba(20,20,20,0.95); /* Black w/opacity */
+}
+
+
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30;/* 30px top margin to avoid conflict with the close button on smaller screens */
+    transition: 0.33s;
+}
+
+
+/* The navigation links inside the overlay */
+.overlay-content a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 0px;
+    color: rgba(20,20,20, 0);
+    display: block; /* Display block instead of inline */
+    transition: 0.33s; /* Transition effects on hover (color) */
+}
+
+.open .overlay-content a {
+    font-size: 28px;
+    color: #FFFFF3;
+}
+
+
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    font-size: larger;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+    color: #FFFFF3;
+}
+
+.closebtn:focus {
+    outline: 0;
+}
+
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+}

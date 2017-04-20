@@ -1,18 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* global styles */
 
-.jumbotron {
-    background-color: #141414;
-    color: #F4F3FF;
-    padding-top: 20px;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: #937666;
-	font-family: 'Josefin Sans', sans-serif;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-    color: #141414;
-    background-color: #F4F3FF;
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+    color: whitesmoke;
+    background-color: #141414;
     font-family: 'Roboto', sans-serif;
+} 
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #937666;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+.footer {
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #141414;
+    color: whitesmoke;
+    padding-top: 20px;
+    border-bottom-width: thin;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: groove;
+}
+
+@media only screen and (max-width: 767px) {
+	.jumbotron {
+		padding: 0 0 20px;
+	}
+}
+   
