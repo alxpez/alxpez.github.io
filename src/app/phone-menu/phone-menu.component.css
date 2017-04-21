@@ -8,7 +8,7 @@
     top: 0;
     background-color: rgba(20,20,20,0.85); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.33s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 0.24s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 .open {
@@ -22,11 +22,15 @@
 /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 35%;
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30;/* 30px top margin to avoid conflict with the close button on smaller screens */
-    transition: 0.33s;
+    transition: 0.24s;
+}
+
+.open .overlay-content {
+    top: 25%;
 }
 
 
@@ -35,9 +39,10 @@
     padding: 8px;
     text-decoration: none;
     font-size: 0px;
+    font-family: 'Josefin Sans', sans-serif;
     color: rgba(20,20,20, 0);
     display: block; /* Display block instead of inline */
-    transition: 0.33s; /* Transition effects on hover (color) */
+    transition: 0.24s; /* Transition effects on hover (color) */
 }
 
 .open .overlay-content a {

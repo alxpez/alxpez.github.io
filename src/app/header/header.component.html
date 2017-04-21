@@ -1,23 +1,15 @@
-<app-phone-menu class="visible-xs" [isOpen]="menuStatus" (onClose)="closeMenu()"></app-phone-menu>
-
-<div class="visible-xs col-xs-12 m-menu">
-  <button class="col-xs-2" (click)="openMenu()">
-    <i class="glyphicon glyphicon-menu-hamburger"></i>
-  </button>
-  <div class="col-xs-10">
-    <p class="h1 title">a<span class="h2">lex</span>p<span class="h2">erez</span></p>
-  </div>
-</div>
-
 <div class="jumbotron">
 	<div class="container">
 
+  <!-- DYNAMIC HEADER -->
 		<div class="col-xs-6 header-left">
 			<h1 class="title hidden-xs">a<small>lex</small>p<small>erez</small></h1>
 			<h2 class="subtitle">Software Developer</h2>
 			<h3 class="hidden-xs">
-				<small>["devOps", "fullStack"]; //for the current hip<a href="https://en.wikipedia.org/wiki/Hip_(slang)" target="_blank">*</a></small>
+				<small>["devOps", "fullStack"]; //for current days</small>
 			</h3>
+
+      <!-- UNDER 768px ONLY -->
       <div class="visible-xs social-menu">
         <div class="col-xs-6">
           <a href="https://github.com/al-pez" target="_blank">
@@ -30,11 +22,11 @@
           </a>
         </div>
       </div>
-		</div>
+		</div> <!-- end header-left -->
 
 		<div class="col-xs-6 header-right">
       <img class="img-circle pull-left" src="../assets/alex.jpg">
-      
+      <!-- OVER 767px ONLY -->
       <div class="hidden-xs">
         <div class="col-xs-6">
           <a href="https://github.com/al-pez" target="_blank">
@@ -47,6 +39,33 @@
           </a>
         </div>
       </div>
-		</div>
+		</div> <!-- end header-right -->
+
 	</div>
+</div> <!-- end jumbotron -->
+
+<div class="separator-line"></div>
+
+<div class="hidden-xs text-center d-nav">
+  <ul class="list-inline">
+    <li><a routerLink="/about" routerLinkActive="active">About me</a></li>
+    <li><a routerLink="/technologies" routerLinkActive="active">Favourite toys</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active">Code Scraps</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+</div>
+
+
+<!-- UNDER 768px ONLY -->
+<app-phone-menu class="visible-xs" [isOpen]="menuStatus" (onClose)="closeMenu()"></app-phone-menu>
+
+<div class="m-nav">
+  <div class="visible-xs col-xs-12 m-menu">
+    <button class="col-xs-2" (click)="openMenu()">
+      <i class="glyphicon glyphicon-menu-hamburger"></i>
+    </button>
+    <div class="col-xs-10">
+      <p class="h1 title">a<span class="h2">lex</span>p<span class="h2">erez</span></p>
+    </div>
+  </div>
 </div>
