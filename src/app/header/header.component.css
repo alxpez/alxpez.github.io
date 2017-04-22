@@ -1,3 +1,10 @@
+.jumbotron {
+    background-color: #141414;
+    color: whitesmoke;
+    padding-top: 23px;
+    margin-bottom: 0;
+}
+
 .title,
 .title > small,
 .title > .h2 {
@@ -19,7 +26,7 @@
 }
 
 .header-right {
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 .header-right > div {
@@ -27,13 +34,14 @@
 }
 
 .img-social {
-	margin: 10px 8px 0 0;
+	margin: 16px 0 0;
 	width: 40px;
 }
 
 .img-circle {
+	float: left!important;
     border-radius: 50%;
-    width: 145px;
+    width: 160px;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -106,8 +114,12 @@ a.active {
 
 
 @media only screen and (max-width: 767px) {
+	.jumbotron {
+        padding: 50px 0 20px;
+    }
+
 	.header-left {
-		padding: 0 0 0 25px;
+		padding: 0 0 0 15px;
 	}
 
 	.header-left > * {
@@ -115,17 +127,22 @@ a.active {
 		margin: 15px 0 0;
 	}
 
+	.header-left > h3 {
+		margin: 15px 0 25px;
+	}
+
 	.header-right {
 		margin-top: 15px;
-		padding: 0 5px;
+		padding: 0;
 	}
 
 	.img-circle {
-	    width: 150px;
+		float: right!important;
+		width: 140px;
 	}
 
 	.img-social {
-		width: 40px;
+		width: 35px;
 		margin: 0;
 	}
 }

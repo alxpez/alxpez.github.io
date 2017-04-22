@@ -14,31 +14,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*@media (max-width: 767px){
-    body {
-        font-size: 16px;
-    }
-}*/
-
-
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #937666;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.footer {
-    /* Set the fixed height of the footer here */
-    height: 40px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+p, .p {
+    text-align: justify;
 }
 
-.jumbotron {
-    background-color: #141414;
-    color: whitesmoke;
-    padding-top: 20px;
-    margin-bottom: 0;
+.page-title {
+
 }
 
 .separator-line {
@@ -50,12 +36,10 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f5f5f5', endColorstr='#00f5f5f5',GradientType=1 ); /* IE6-9 */
 }
 
-
-
 @media only screen and (max-width: 767px) {
-	.jumbotron {
-		padding: 50px 0 20px;
-	}
+    .page-title {
+        text-align: center;
+    }
 }
 
 @media (min-width: 992px){
