@@ -35,21 +35,35 @@
 
 
 /* The navigation links inside the overlay */
+.overlay-content li {
+    display: block; /* Display block instead of inline */
+}
+
 .overlay-content a {
-    padding: 8px;
     text-decoration: none;
     font-size: 0px;
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(20,20,20, 0);
-    display: block; /* Display block instead of inline */
     transition: 0.24s; /* Transition effects on hover (color) */
+}
+
+.overlay-content a.active,
+.open .overlay-content a.active { 
+    padding-left: 30px;
+    padding-right: 30px; 
+    color: #FFFFF3; 
+    border-left-width: thin;
+    border-left-color: whitesmoke;
+    border-left-style: solid;
+    border-right-width: thin;
+    border-right-color: whitesmoke;
+    border-right-style: solid;
 }
 
 .open .overlay-content a {
     font-size: 28px;
-    color: #FFFFF3;
+    color: rgba(245, 245, 245, 0.50)
 }
-
 
 
 /* Position the close button (top right corner) */
@@ -70,8 +84,7 @@
 }
 
 
-
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
+    .overlay li {font-size: 20px}
 }

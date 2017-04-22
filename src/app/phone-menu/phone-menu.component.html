@@ -3,9 +3,15 @@
 		<i class="glyphicon glyphicon-remove"></i>
 	</button>
 	<div class="overlay-content">
-		<a routerLink="/about" (click)="onClick()">About me</a>
-		<a routerLink="/technologies" (click)="onClick()">Favorite toys</a>
-		<a routerLink="/projects" (click)="onClick()">Code scraps</a>
-		<a routerLink="/contact" (click)="onClick()">Contact</a>
+		
+			<li><a routerLink="/about" routerLinkActive="active" (click)="onClick()">About me</a></li>
+			<li><a routerLink="/technologies" routerLinkActive="active" (click)="onClick()">Favorite toys</a></li>
+			<li><a routerLink="/projects" routerLinkActive="active" (click)="onClick()">Code scraps</a></li>
+			<li><a routerLink="/contact" routerLinkActive="active" (click)="onClick()">Contact</a></li>
+		
+		<!-- <a routerLink="/about" routerLinkActive="active" (click)="onClick()">About me</a>
+		<a routerLink="/technologies" routerLinkActive="active" (click)="onClick()">Favorite toys</a>
+		<a routerLink="/projects" routerLinkActive="active" (click)="onClick()">Code scraps</a>
+		<a routerLink="/contact" routerLinkActive="active" (click)="onClick()">Contact</a> -->
 	</div>
 </div>
