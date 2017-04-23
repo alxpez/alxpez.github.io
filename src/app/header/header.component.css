@@ -1,0 +1,155 @@
+.jumbotron {
+    background-color: #141414;
+    color: whitesmoke;
+    padding-top: 23px;
+    margin-bottom: 0;
+}
+
+.title,
+.title > small,
+.title > .h2 {
+	color: #F4F3FF;
+}
+
+.subtitle {
+	color: #B19994;
+}
+
+
+.header-left {
+	padding: 8px;
+}
+
+.header-left > * {
+	text-align: right;
+	margin: 5px;
+}
+
+.header-right {
+	margin-top: 25px;
+}
+
+.header-right > div {
+	padding: 0 8px;
+}
+
+.img-social {
+	margin: 10px 0 0;
+	font-size: 38px;
+	color: inherit;
+}
+
+
+.img-circle {
+	float: left!important;
+    border-radius: 50%;
+    width: 160px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.social-menu > div {
+	padding-left: 0px;
+}
+
+.m-nav {
+	top: 0;
+	width: 100%;
+    position: fixed; /* Stay in place */
+    background-color: #141414;
+}
+
+.m-menu {
+    border-bottom-width: thin;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: groove;
+}
+
+.m-menu,
+.m-menu > * {
+	padding: 0;
+	margin: 0;
+}
+
+.m-menu-btn {
+	font-size: x-large;
+}
+
+p.title {
+	margin: 0 0 10px;
+}
+
+button {
+	width: 50px;
+	height: 50px;
+	font-size: larger;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.d-nav {
+	margin-bottom: 28px;
+}
+
+.d-nav li {
+	margin: 20px 15px;
+}
+
+.d-nav a {
+	padding-bottom: 18px;
+}
+
+a {
+	color: rgba(245, 245, 245, 0.45);
+	text-decoration: none;
+	font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a:hover { color: rgba(245, 245, 245, 0.80); }
+a.active { 
+	color: inherit; 
+	border-bottom-width: thin;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: solid;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.jumbotron {
+        padding: 50px 0 20px;
+    }
+
+	.header-left {
+		padding: 0 0 0 15px;
+	}
+
+	.header-left > * {
+		text-align: left;
+		margin: 15px 0 0;
+	}
+
+	.header-left > h3 {
+		margin: 15px 0 25px;
+	}
+
+	.header-right {
+		margin-top: 15px;
+		padding: 0;
+	}
+
+	.img-circle {
+		float: right!important;
+		width: 140px;
+	}
+
+	.img-social {
+		font-size: 30px;
+		height: 35px;
+		margin: 0;
+	}
+}

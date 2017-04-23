@@ -1,0 +1,14 @@
+.contact-menu a,
+.contact-menu a:hover {
+	margin: 0 10px;
+	color: inherit;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.contact-menu a,
+	.contact-menu a:hover {
+		margin: 0 5px;
+	}
+}

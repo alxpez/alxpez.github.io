@@ -1,0 +1,11 @@
+<div id="myNav" class="overlay" [ngClass]="{'open':isOpen}">
+	<button class="closebtn" (click)="onClick()">
+		<i class="glyph glyph-close"></i>
+	</button>
+	<div class="overlay-content">
+		<li><a routerLink="/about" routerLinkActive="active" (click)="onClick()">About me</a></li>
+		<li><a routerLink="/technologies" routerLinkActive="active" (click)="onClick()">Favorite toys</a></li>
+		<li><a routerLink="/projects" routerLinkActive="active" (click)="onClick()">Code scraps</a></li>
+		<li><a routerLink="/contact" routerLinkActive="active" (click)="onClick()">Contact</a></li>
+	</div>
+</div>
