@@ -34,9 +34,11 @@
 }
 
 .img-social {
-	margin: 16px 0 0;
-	width: 40px;
+	margin: 10px 0 0;
+	font-size: 38px;
+	color: inherit;
 }
+
 
 .img-circle {
 	float: left!important;
@@ -48,6 +50,13 @@
 
 .social-menu > div {
 	padding-left: 0px;
+}
+
+.m-nav {
+	top: 0;
+	width: 100%;
+    position: fixed; /* Stay in place */
+    background-color: #141414;
 }
 
 .m-menu {
@@ -62,11 +71,8 @@
 	margin: 0;
 }
 
-.m-nav {
-	top: 0;
-	width: 100%;
-    position: fixed; /* Stay in place */
-    background-color: #141414;
+.m-menu-btn {
+	font-size: x-large;
 }
 
 p.title {
@@ -142,7 +148,8 @@ a.active {
 	}
 
 	.img-social {
-		width: 35px;
+		font-size: 30px;
+		height: 35px;
 		margin: 0;
 	}
 }
