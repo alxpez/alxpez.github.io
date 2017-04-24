@@ -8,7 +8,7 @@
     top: 0;
     background-color: rgba(20,20,20,0.85); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.24s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 0.35s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 .open {
@@ -26,7 +26,7 @@
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30;/* 30px top margin to avoid conflict with the close button on smaller screens */
-    transition: 0.24s;
+    transition: 0.35s;
 }
 
 .open .overlay-content {
@@ -44,10 +44,13 @@
     font-size: 0px;
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(20,20,20, 0);
-    transition: 0.24s; /* Transition effects on hover (color) */
+    transition: 0.35s; /* Transition effects on hover (color) */
 }
 
-.overlay-content a.active,
+.overlay-content a.active {
+    border: none;
+}
+
 .open .overlay-content a.active { 
     padding-left: 30px;
     padding-right: 30px; 
