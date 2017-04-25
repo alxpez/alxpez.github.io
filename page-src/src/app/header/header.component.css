@@ -1,20 +1,7 @@
 .jumbotron {
-    background-color: #141414;
-    color: whitesmoke;
     padding-top: 23px;
     margin-bottom: 0;
 }
-
-.title,
-.title > small,
-.title > .h2 {
-	color: #F4F3FF;
-}
-
-.subtitle {
-	color: #B19994;
-}
-
 
 .header-left {
 	padding: 8px;
@@ -56,12 +43,10 @@
 	top: 0;
 	width: 100%;
     position: fixed; /* Stay in place */
-    background-color: #141414;
 }
 
 .m-menu {
     border-bottom-width: thin;
-    border-bottom-color: whitesmoke;
     border-bottom-style: groove;
 }
 
@@ -85,8 +70,8 @@ button {
 	height: 50px;
 	font-size: larger;
 	border: none;
-	background-color: rgba(0, 0, 0, 0);
-    color: whitesmoke;
+	background-color: transparent;
+    color: inherit;
 }
 
 button:focus {
@@ -106,16 +91,10 @@ button:focus {
 }
 
 a {
-	color: rgba(245, 245, 245, 0.45);
-	text-decoration: none;
 	font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
 }
-a:hover { color: rgba(245, 245, 245, 0.80); }
 a.active { 
-	color: inherit; 
 	border-bottom-width: thin;
-    border-bottom-color: whitesmoke;
     border-bottom-style: solid;
 }
 

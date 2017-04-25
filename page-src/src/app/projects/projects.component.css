@@ -1,6 +1,4 @@
 .thumbnail {
-	background-color: rgba(245,245, 245, 0.05);
-    border: thin solid rgba(245,245, 245, 0.10);
 	min-height: 400px;
 }
 
@@ -11,10 +9,6 @@
 .caption {
 	color: inherit;
 	padding: 5px 10px;
-}
-
-.scraps {
-    position: initial;
 }
 
 .button-wrapper {
