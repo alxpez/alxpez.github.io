@@ -60,6 +60,11 @@
     <li><a routerLink="/technologies" routerLinkActive="active">Favourite toys</a></li>
     <li><a routerLink="/projects" routerLinkActive="active">Code scraps</a></li>
     <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+    <li>
+      <button [attr.title]="isDark ? 'Day theme' : 'Night theme'" (click)="changeStyle()">
+        <i class="glyph" [ngClass]="{'glyph-sun': isDark, 'glyph-moon': !isDark}"></i>
+      </button>
+    </li>
   </ul>
 </div>
 
@@ -72,8 +77,11 @@
     <button class="col-xs-2 m-menu-btn" (click)="openMenu()">
       <i class="glyph glyph-menu"></i>
     </button>
-    <div class="col-xs-10">
+    <div class="col-xs-8">
       <p class="h1 title">a<span class="h2">lex</span>p<span class="h2">erez</span></p>
     </div>
+    <button [attr.title]="isDark ? 'Day theme' : 'Night theme'" class="pull-right" (click)="changeStyle()">
+      <i class="glyph" [ngClass]="{'glyph-sun': isDark, 'glyph-moon': !isDark}"></i>
+    </button>
   </div>
 </div>

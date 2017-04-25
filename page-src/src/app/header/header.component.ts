@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
 	public menuStatus: boolean = false;
+	public isDark: boolean = false;
 
 	constructor() { }
 
@@ -22,4 +23,13 @@ export class HeaderComponent implements OnInit {
 		this.menuStatus = false;
 	}
 
+	public changeStyle(): void {
+		if(this.isDark){
+			document.body.classList.remove('dark');
+			this.isDark=false;
+		}else{
+			document.body.classList.add('dark');
+			this.isDark=true;
+		}
+	}
 }

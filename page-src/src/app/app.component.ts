@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-	onDeactivate() {
+	public onDeactivate(): void {
 		document.body.scrollTop = 0;
 	}
 }
