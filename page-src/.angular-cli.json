@@ -9,6 +9,18 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "favicon.ico",
+        "favicon-16x16.png",
+        "favicon-32x32.png",
+        "android-chrome-192x192.png",
+        "android-chrome-384x384.png",
+        "apple-touch-icon.png",
+        "safari-pinned-tab.svg",
+        "mstile-70x70.png",
+        "mstile-150x150.png",
+        "mstile-310x310.png",
+        "manifest.json",
+        "browserconfig.xml",
         "404.html"
       ],
       "index": "index.html",
