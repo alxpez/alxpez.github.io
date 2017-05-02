@@ -9,11 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/about',
+    redirectTo: '/technologies',
     pathMatch: 'full'
-  }, {
-  	path: 'about',
-  	component: AboutComponent
   }, {
   	path: 'technologies',
   	component: TechnologiesComponent
@@ -21,11 +18,14 @@ const routes: Routes = [
   	path: 'projects',
   	component: ProjectsComponent
   }, {
+    path: 'about',
+    component: AboutComponent
+  }, {
   	path: 'contact',
   	component: ContactComponent
   }, { 
     path: '**',
-    component: AboutComponent 
+    component: TechnologiesComponent 
   }
 ];
 
