@@ -61,7 +61,7 @@
     <li><a routerLink="/projects" routerLinkActive="active">Code scraps</a></li>
     <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
     <li>
-      <button [attr.title]="isDark ? 'Day theme' : 'Night theme'" (click)="changeStyle(!isDark)">
+      <button [attr.title]="isDark ? 'Day mode' : 'Night mode'" (click)="changeStyle(!isDark)">
         <i class="glyph" [ngClass]="{'glyph-sun': isDark, 'glyph-moon': !isDark}"></i>
       </button>
     </li>
@@ -80,7 +80,7 @@
     <div class="col-xs-8">
       <p class="h1 title">a<span class="h2">lex</span>p<span class="h2">erez</span></p>
     </div>
-    <button [attr.title]="isDark ? 'Day theme' : 'Night theme'" class="pull-right" (click)="changeStyle(!isDark)">
+    <button class="pull-right" (click)="changeStyle(!isDark)">
       <i class="glyph" [ngClass]="{'glyph-sun': isDark, 'glyph-moon': !isDark}"></i>
     </button>
   </div>

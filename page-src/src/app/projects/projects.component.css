@@ -14,3 +14,8 @@
 .button-wrapper {
     bottom: 0;
 }
+
+a, a:hover, a:visited, a.active {
+	color: #5A7D7C;
+	text-decoration: none;
+}
