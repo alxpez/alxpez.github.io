@@ -1,3 +1,3 @@
 # Yep, my website
 
-Visit it on [alxpez.github.io](https://alxpez.github.io/)
+Go to and take a look [alxpez.github.io](https://alxpez.github.io/)
