@@ -1,45 +1,232 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Alex Perez</title>
-		<base href="/">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Amaranth:700|Open+Sans" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Perez - CV</title>
+    <link href='https://fonts.googleapis.com/css?family=Alexandria|Roboto Mono|Roboto' rel='stylesheet'>
+    <style>
+        :root {
+            --background-color: #fff;
+            
+            --text-color-0: #333;
+            --text-color-1: #999;
+            
+            --accent-color-0: #3A6D80;
+            --accent-color-1: #E3EEF2;
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPgJ5yWlz0">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=kPgJ5yWlz0">
-		<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png?v=kPgJ5yWlz0">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=kPgJ5yWlz0">
-		<link rel="manifest" href="/manifest.json?v=kPgJ5yWlz0">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPgJ5yWlz0" color="#272a2c">
-		<link rel="shortcut icon" href="/favicon.ico?v=kPgJ5yWlz0">
-		<meta name="apple-mobile-web-app-title" content="Alex Perez">
-		<meta name="application-name" content="Alex Perez">
-		<meta name="theme-color" content="#272a2c">
+            --border: 1px solid #eee;
+        }
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color-0);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            text-align: justify;
+        }
+        .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0 auto;
+            max-width: 1280px;
+        }
+        .section {
+            padding: 20px;
+        }
+        .header {
+            align-items: flex-start;
+            border-bottom: 5px solid var(--accent-color-0);
+            border-radius: 5px;
+            display: flex;
+            grid-column: 1 / -1;
+            justify-content: space-between;
+        }
+        .experience {
+            grid-column: 1 / 3;
+            grid-row: 2 / 6;
+        }
+        .skills, .open-source, .summary, .languages {
+            grid-column: 3;
+        }
+        .summary {
+            background-color: var(--accent-color-1);
+            color: var(--accent-color-0);
+            border-bottom: none;
+            border-radius: 5px;
+        }
+        h1, h2, .experience-company {
+            color: var(--accent-color-0);
+            font-family: 'Alexandria';
+        }
+        a, .tag-line {
+            font-family: 'Roboto Mono';
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        } 
+        h2 {
+            margin: 0 0 15px;
+        }
+        a {
+            color: var(--accent-color-0);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .tag-line {
+            color: var(--accent-color-0);
+            font-size: 0.9em;
+            margin: 0;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            text-align: right;
+        }
+        .contact-info > p {
+            margin: 5px 0;
+        }
+        .experience-item {
+            border-bottom: var(--border);
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+        .experience-title {
+            font-family: 'Roboto';
+            font-size: large;
+            font-weight: bold;
+        }
+        .experience-year {
+            color: var(--text-color-1);
+            font-weight: lighter;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill {
+            background-color: var(--accent-color-1);
+            border-radius: 3px;
+            color: var(--accent-color-0);
+            font-family: 'Roboto Mono';
+            font-size: 0.9em;
+            padding: 5px 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .experience, .skills, .open-source, .summary, .languages {
+                border-right: none;
+                grid-column: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section header">
+            <div>
+                <h1>Alex Perez 👾</h1>
+                <p class="tag-line">connecting the puzzle through software</p>
+            </div>
+            <div class="contact-info">
+                <p><a href="https://github.com/alxpez" target="_blank">github.com/alxpez</a></p>
+                <p><a href="mailto:alxpez.dev@gmail.com" target="_blank">alxpez.dev@gmail.com</a></p>
+                <p><a href="tel:+64 22 542 3861" target="_blank">+64 22 542 3861</a></p>
+            </div>
+        </header>
 
-	  	<script>
-		  (function(){
-		    var redirect = sessionStorage.redirect;
-		    delete sessionStorage.redirect;
-		    if (redirect && redirect != location.href) {
-		      history.replaceState(null, null, redirect);
-		    }
-		  })();
-		</script>
+        <section class="section experience">
 
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        </section>
 
-			ga('create', 'UA-96522971-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-	<link href="styles.8fc21b5fd6a108c95427.bundle.css" rel="stylesheet"/></head>
-	<body>
+        <section class="section experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <span class="experience-title">Lead Product Engineer</span> · 
+                <span class="experience-company">Openlytics</span> · 
+                <span class="experience-year">2021/23</span>
+                <p>Head hunted as the founding engineer, leading the frontend development of an AI-driven data analysis platform. I was instrumental in conceptualizing, designing and implementing product-wide components and integrations. Given the decentralized nature of the team, great effort was put into creating an environment with clear and proactive communication.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Senior Developer</span> · 
+                <span class="experience-company">Tapi</span> · 
+                <span class="experience-year">2020/21</span>
+                <p>Aligned the design and implementation of the v2 suite for a property maintenance platform. All project milestones were in check ahead of schedule, allowing for additional features and legacy system improvements, and ensuring a seamless transition for clients.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Senior Frontend Developer</span> · 
+                <span class="experience-company">Heyday + Wunderman Thompson</span> · 
+                <span class="experience-year">2018/20</span>
+                <p>Worked across multiple high-profile projects, from building interactive applications to simple bug fixes. I worked collaboratively with very talented colleagues who kept the fast paced dynamics of this digital agency running day to day.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Full-stack Engineer</span> · 
+                <span class="experience-company">Certus Solutions</span> · 
+                <span class="experience-year">2017/18</span>
+                <p>Streamlined operations by implementing automations for manual legacy processes. Developed proofs of concept for prospective projects. This role sparked a passion for tackling self-imposed challenges and helped grow my love for open-source collaborations.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Analyst / Full-stack Engineer</span> · 
+                <span class="experience-company">Movired</span> · 
+                <span class="experience-year">2015/17</span>
+                <p>Managed a small team to create a foundational SaaS suite for the after-sales management of electronic devices. Designed a modular architecture with SSO authentication, opening new market opportunities for Movired across Europe. The system remains operational and continues to evolve, with new modules integrated into the suite to date.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Lead Frontend Developer</span> · 
+                <span class="experience-company">Stratmind</span> · 
+                <span class="experience-year">2010/13</span>
+                <p>Spearheaded the frontend development of an e-learning platform targeting Spanish and Latin American markets. Mentored new developers and drove R&D initiatives. The team's collaborative nature grounded many of the practices that I continue to follow today.</p>
+            </div>
+            <div class="experience-item">
+                <span class="experience-title">Software Developer</span> · 
+                <span class="experience-company">Stratmind</span> · 
+                <span class="experience-year">2009/10</span>
+                <p>Crafted e-commerce sites and marketing campaigns. Developed an innovative webapp to generate and deploy no-code websites as subdomains, targeting non-technical business owners.</p>
+            </div>
+        </section>
 
-		<app-root></app-root>
-	<script type="text/javascript" src="inline.6922ebca21bd99604679.bundle.js"></script><script type="text/javascript" src="polyfills.100e871229b7743c33db.bundle.js"></script><script type="text/javascript" src="vendor.149ae8115f344471a0ae.bundle.js"></script><script type="text/javascript" src="main.0a27c1ecef59d87ab17c.bundle.js"></script></body>
+        <section class="section summary">
+            <p>Seasoned <b>product engineer</b> with a focus on high-tech startups. Pragmatic <b>problem-solver</b> and advocate for <b>transparent communication</b>.</p>
+            <p>Known for thinking out-of-the-box and delivering <b>creative</b> solutions. Strong <b>leadership skills</b> fostering a culture of innovation and ongoing improvement.</p>
+            <p>Passionate about connecting the dots in projects, always striving to find the <b>optimal path forward</b> for each unique case.</p>
+        </section>
+
+        <section class="section open-source">
+            <h2>Open Source</h2>
+            <p>Creator of <a href="https://github.com/alxpez/vuegg" target="_blank">vuegg</a>, <a href="https://github.com/alxpez/alts" target="_blank">alts</a> and <a href="https://github.com/ividjs/ivid" target="_blank">ivid</a>, among other projects.</p>
+            <p>Avid contributor to open-source initiatives, leveraging collaborative development as a means of continuous learning and knowledge expansion.</p>
+            <p>Dedicated to giving back to the developer community and driving technological advancement where I can.</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">AI Integration</span>
+                <span class="skill">Java</span>
+                <span class="skill">Technical Leadership</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Docker</span>
+                <span class="skill">System Architecture</span>
+                <span class="skill">Framework Agnostic</span>
+                <span class="skill">UX Design</span>
+            </div>
+        </section>
+
+        <section class="section languages">
+            <h2>Languages</h2>
+            <p>Fluent in <b>English</b> and <b>Spanish</b>. Enjoy working with people from diverse backgrounds.</p>
+        </section>
+    </div>
+</body>
 </html>
